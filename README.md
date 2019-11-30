@@ -1,38 +1,10 @@
-repro-ember-cli-htmlbars-hbs-export
-==============================================================================
+# repro-ember-cli-htmlbars-hbs-export
 
-[Short description of the addon.]
+Repro case for [`Error: Can't resolve 'fs'`](https://github.com/ember-cli/ember-cli-htmlbars/issues/374)
 
+## Instructions
 
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
-* Node.js v8 or above
-
-
-Installation
-------------------------------------------------------------------------------
-
-```
-ember install repro-ember-cli-htmlbars-hbs-export
-```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
+1. Clone repo
+2. Install: `yarn`
+3. Start: `yarn storybook``
+4. See error messages on the console
